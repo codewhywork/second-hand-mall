@@ -28,6 +28,6 @@ public interface UserService extends IService<UserEntity> {
 
     int subAccount(String userId, BigDecimal bigDecimal);
 
-    R regSms(String phone);
+    R regSms(String phone) throws Exception;
 }
 

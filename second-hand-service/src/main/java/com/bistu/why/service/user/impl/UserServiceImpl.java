@@ -2,6 +2,7 @@ package com.bistu.why.service.user.impl;
 
 
 import com.alibaba.fastjson2.JSON;
+import com.aliyun.dysmsapi20170525.models.SendSmsResponse;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.bistu.why.common.constant.*;
@@ -16,7 +17,7 @@ import com.bistu.why.common.result.R;
 import com.bistu.why.common.result.RRException;
 import com.bistu.why.service.user.UserService;
 import com.bistu.why.common.utils.PageUtils;
-import com.bistu.why.utils.SendSmsUtils;
+import com.bistu.why.utils.SendMsgUtils;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.BeanUtils;
@@ -46,7 +47,7 @@ public class UserServiceImpl extends ServiceImpl<UserDao, UserEntity> implements
     RedisTemplate<String, Object> redisTemplate;
 
     @Autowired
-    SendSmsUtils sendSmsUtils;
+    SendMsgUtils sendMsgUtils;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -61,7 +62,9 @@ public class UserServiceImpl extends ServiceImpl<UserDao, UserEntity> implements
         if (regUserDto.getPhone() != null) {
             regUserDto.setUname(regUserDto.getPhone());
             String code = (String) redisTemplate.opsForValue().get(RedisConstant.USER_REG_SMS_KET_PREFIX + regUserDto.getPhone());
-            if (code != null && !code.equals(regUserDto.getCode())) return R.error();
+            if (code != null && !code.equals(regUserDto.getCode())) {
+                return R.error();
+            }
         }
         BeanUtils.copyProperties(regUserDto, userEntity);
         userEntity.setPasswd(PasswordEncoder.encode(passwd));
@@ -132,8 +135,8 @@ public class UserServiceImpl extends ServiceImpl<UserDao, UserEntity> implements
 
     //发送短信
     @Override
-    public R regSms(String phone) {
-        String code = sendSmsUtils.sendSms(phone);
+    public R regSms(String phone) throws Exception {
+        String code = sendMsgUtils.sendSmsResponse(phone);
         redisTemplate.opsForValue().set(RedisConstant.USER_REG_SMS_KET_PREFIX + phone, code, RedisConstant.USER_REG_SMS_TTL_KET_PREFIX, TimeUnit.SECONDS);
         return R.ok();
     }

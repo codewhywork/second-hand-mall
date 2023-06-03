@@ -4,7 +4,6 @@ import com.bistu.why.model.dto.RegUserDto;
 import com.bistu.why.common.result.R;
 import com.bistu.why.controller.BaseController;
 import com.bistu.why.service.user.UserService;
-import com.bistu.why.utils.SendSmsUtils;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -24,8 +23,6 @@ public class RegisterUserController extends BaseController {
     @Autowired
     UserService userService;
 
-    @Autowired
-    SendSmsUtils sendSmsUtils;
 
     @PostMapping("/reg/user")
     public R regUser(@RequestBody @Valid RegUserDto regUserDto, BindingResult bindingResult) {
@@ -35,7 +32,7 @@ public class RegisterUserController extends BaseController {
 
     //发送短信
     @GetMapping("/reg/sms")
-    public R regSms(@RequestParam String phone) {
+    public R regSms(@RequestParam String phone) throws Exception {
         return userService.regSms(phone);
     }
 

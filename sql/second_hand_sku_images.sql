@@ -1,0 +1,9 @@
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (111, 27, 'sku_img1', 0, 0);
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (112, 28, 'sku_img1', 0, 0);
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (113, 29, 'sku_img1', 0, 0);
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (114, 30, 'sku_img1', 0, 0);
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (115, 31, 'sku_img1', 0, 0);
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (116, 32, 'sku_img1', 0, 0);
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (117, 33, 'sku_img1', 0, 0);
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (118, 34, 'sku_img1', 0, 0);
+INSERT INTO `second_hand_sku_images`(`id`, `sku_id`, `img_url`, `img_sort`, `default_flag`) VALUES (119, 35, 'sku_img1', 0, 0);

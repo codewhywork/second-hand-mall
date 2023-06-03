@@ -1,0 +1,14 @@
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (80, 17, 7, '上网型号', 'A2217', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (81, 17, 8, '上市年份', '2018', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (82, 17, 13, '机身长度', '158.3;135.9', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (83, 17, 9, '颜色', '黑色;白色', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (84, 17, 15, 'CPU品牌', '以官网信息为主', 0, 1);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (85, 17, 16, 'CPU型号', 'A13仿生', 0, 1);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (86, 18, 7, '上网型号', 'A2217', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (87, 18, 8, '上市年份', '2018', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (88, 18, 13, '机身长度', '158.3;135.9', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (89, 18, 9, '颜色', '黑色;白色', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (90, 19, 7, '上网型号', 'A2217', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (91, 19, 8, '上市年份', '2018', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (92, 19, 13, '机身长度', '158.3;135.9', 0, 0);
+INSERT INTO `second_hand_spu_attribute_value`(`id`, `spu_id`, `attr_id`, `attr_name`, `attr_value`, `attr_sort`, `quick_show`) VALUES (93, 19, 9, '颜色', '黑色;白色', 0, 0);

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bad024f1-6859-48db-a15f-9633877ef2ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/adaptor/MongoTableInfoAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/config/DbConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/config/MongoCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/config/MongoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/config/MongoNullCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/controller/SysGeneratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/dao/GeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/dao/MongoDBGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/dao/MySQLGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/dao/OracleGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/dao/PostgreSQLGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/dao/SQLServerGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/entity/ColumnEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/entity/TableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/entity/mongo/MongoDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/entity/mongo/MongoGeneratorEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/entity/mongo/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/factory/MongoDBCollectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/service/SysGeneratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/GenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/MongoScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/java/io/renren/utils/RRExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/mapper/MySQLGeneratorDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/mapper/OracleGeneratorDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/mapper/PostgreSQLGeneratorDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/mapper/SQLServerGeneratorDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/css/all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/js/generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/libs/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/libs/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/libs/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/libs/fastclick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/libs/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/libs/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/libs/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/libs/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/jqgrid/grid.locale-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/jqgrid/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/skin/moon/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/static/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/Controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/Dao.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/Dao.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/Entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/MongoChildrenEntity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/MongoEntity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/Service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/ServiceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/add-or-update.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/template/menu.sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/views/generator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/main/resources/views/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator-master/src/test/java/io/renren/RenrenApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/config/MyDelegatingPasswordEncoderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/config/MyMvcConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/config/MyRabbitMessageConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/config/MyRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/config/MySecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/config/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/entity/MenuRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/filter/ValidateCodeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/handler/MyAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/handler/MyAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/handler/MyAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/handler/MyLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/jwtAuthConfigurer/AdminAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/jwtAuthConfigurer/AdminAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/jwtAuthConfigurer/AdminAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/jwtAuthConfigurer/AdminLoginConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/jwtAuthConfigurer/JwtSecurityContextRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/mapper/MenuRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/java/com/bistu/why/admin/mq/UserMqListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/mappers/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/mappers/MenuRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/mappers/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/static/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/main/resources/templates/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-admin/src/test/java/AdminTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-business/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/CartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/anno/MustLoginAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/aspect/MustLoginAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/config/MyRabbitMessageConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/config/MyRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/config/MySwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/config/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/config/MyThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/config/MyWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/java/com/bistu/why/cart/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-cart/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/config/MyRabbitMessageConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/config/MyRabbitMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/config/MyRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/config/MySwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/config/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/config/MyThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/config/MyWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/factory/payFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/mq/OrderMqListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/pay/enmu/PayEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/pay/impl/wxPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/pay/impl/zfbPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/pay/payContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/java/com/bistu/why/order/pay/payWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/resources/templates/wxPay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-order/src/main/resources/templates/zfbPay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/config/MyRabbitMessageConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/config/MyRabbitMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/config/MyRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/config/MySwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/config/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/config/MyThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/config/MyWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/AttributeAttrgroupRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/AttributeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/AttributeGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/SecondHandSkuInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/SkuImagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/SkuSaleAttributeValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/SpuAttributeValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/SpuImagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/controller/SpuInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/java/com/bistu/why/product/mq/ProductMqListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/saveSpuTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/updateSaveSpuTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/upload/file/135.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/upload/file/136.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/upload/file/137.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/upload/file/138.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/upload/file/139.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/main/resources/upload/file/140.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-product/src/test/java/com/bistu/why/product/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-reviews/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/anno/MustLoginAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/aspect/MustLoginAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/config/MyRabbitMessageConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/config/MyRabbitMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/config/MyRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/config/MySwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/config/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/config/MyThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/config/MyWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/controller/RecordsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/controller/RegisterUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/java/com/bistu/why/user/interceptor/VerifyCodeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/api-user/src/test/java/com/bistu/why/user/UserApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/constant/CookieConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/constant/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/constant/RabbitBindingConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/constant/RedisConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/constant/VerifyCodeConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/renren/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/renren/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/renren/utils/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/renren/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/renren/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/renren/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/renren/utils/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/result/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/result/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/utils/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-common/src/main/java/com/bistu/why/common/utils/SpringAppContextBeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/java/com/bistu/why/gateway/GateWayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/java/com/bistu/why/gateway/config/GateWayCorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/java/com/bistu/why/gateway/config/GateWayRouterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/java/com/bistu/why/gateway/config/MyRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/java/com/bistu/why/gateway/contextHolder/UserThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/java/com/bistu/why/gateway/filter/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/java/com/bistu/why/gateway/threadlocalVo/UserAuthInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-gateway/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/cart/CartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/order/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/AttributeAttrgroupRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/AttributeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/AttributeGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/BrandDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/SecondHandSkuInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/SkuImagesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/SkuSaleAttributeValueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/SpuAttributeValueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/SpuImagesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/product/SpuInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/stock/StockDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/user/RecordsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/java/com/bistu/why/dao/user/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.order/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/AttributeAttrgroupRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/AttributeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/AttributeGroupDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/BrandDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/CategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/SecondHandSkuInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/SkuImagesDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/SkuSaleAttributeValueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/SpuAttributeValueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/SpuImagesDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.product/SpuInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.user/RecordsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers.user/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-mapper/src/main/resources/mappers/stock/StockDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/cart/CartEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/dto/CartDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/dto/RegUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/dto/SaveOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/dto/SearchProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/dto/SpuSavaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/order/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/AttributeAttrgroupRelationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/AttributeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/AttributeGroupEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/BrandEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/SecondHandSkuInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/SkuImagesEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/SkuSaleAttributeValueEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/SpuAttributeValueEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/SpuImagesEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/product/SpuInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/stock/StockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/threadlocalVo/UserAuthInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/user/RecordsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/user/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-model/src/main/java/com/bistu/why/model/vo/productVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/SearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/config/MyEsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/config/MyRabbitMessageConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/config/MyRabbitMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/dao/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/mq/ProductMqListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/service/SearchProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/java/com/bistu/why/search/service/impl/SearchProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-search/src/test/java/com/bistu/why/search/esTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/config/MyRedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/contextHolder/UserThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/exception/RrExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/cart/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/cart/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/order/feign/StockFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/order/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/AttributeAttrgroupRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/AttributeGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/AttributeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/SecondHandSkuInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/SkuImagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/SkuSaleAttributeValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/SpuAttributeValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/SpuImagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/SpuInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/AttributeAttrgroupRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/AttributeGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/AttributeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/SecondHandSkuInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/SkuImagesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/SkuSaleAttributeValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/SpuAttributeValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/SpuImagesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/product/impl/SpuInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/stock/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/stock/impl/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/user/RecordsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/user/impl/RecordsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/service/user/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-hand-service/src/main/java/com/bistu/why/utils/SendSmsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/menu.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/menu_role.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/role.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_attribute.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_attribute_attrgroup_relation.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_attribute_group.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_category.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_records.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_sku_images.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_sku_info.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_sku_sale_attribute_value.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_spu_attribute_value.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_spu_images.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_spu_info.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_stock.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/second_hand_user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/user_role.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QgkCAq6VyYYsvaAJWlBr0VsWkU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "720ce5691f38f4735e3f6ac32a5af36f",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="compose" temporary="true" nameIsGenerated="true">
+      <module name="second-hand-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bistu.why.admin.AdminApplication" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx256m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bistu.why.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="compose" temporary="true" nameIsGenerated="true">
+      <module name="api-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bistu.why.cart.CartApplication" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx256m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bistu.why.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="compose" nameIsGenerated="true">
+      <module name="second-hand-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bistu.why.gateway.GateWayApplication" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx256m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="compose" temporary="true" nameIsGenerated="true">
+      <module name="api-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bistu.why.order.OrderApplication" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx256m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bistu.why.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="compose" temporary="true" nameIsGenerated="true">
+      <module name="api-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bistu.why.product.ProductApplication" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx256m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bistu.why.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="compose" nameIsGenerated="true">
+      <module name="second-hand-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bistu.why.search.SearchApplication" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx256m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="compose" temporary="true" nameIsGenerated="true">
+      <module name="api-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bistu.why.user.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx256m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bistu.why.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="second-hand-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bistu.why.gateway.GateWayApplication" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx256m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.GateWayApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.CartApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AdminApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.CartApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bad024f1-6859-48db-a15f-9633877ef2ce" name="Changes" comment="" />
+      <created>1685782483034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685782483034</updated>
+      <workItem from="1685782484629" duration="11000" />
+      <workItem from="1685782508316" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+server:
+  port: 9095
+
+mybatis-plus:
+  mapper-locations: classpath:mappers/**/*.xml
+  type-aliases-package: com.bistu.why.model
+  global-config:
+    db-config:
+      id-type: auto
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.58.190:3306/second_hand?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  #redis
+  redis:
+    host: 192.168.58.190
+    port: 6379
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  thymeleaf:
+    cache: false
+
+thread:
+  coreSize: 20
+  maxSize: 200
+  keepAliveTime: 10
+
+ali:
+  appCode: 31eb5e7be01f4209ba2dd486bf494887
+  appSecret: 15J9qFRyPxAmKgDvbnMH3lDOhE3c71DV
+  appKey: 204098293

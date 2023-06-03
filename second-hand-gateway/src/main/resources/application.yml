@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    loadbalancer:
+      enabled: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
+  #redis
+  redis:
+    host: 192.168.58.190
+    port: 6379

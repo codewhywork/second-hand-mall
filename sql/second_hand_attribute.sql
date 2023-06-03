@@ -1,0 +1,10 @@
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (7, '入网型号', 'xxx', 'A2217;C3J;以官网信息为准', 1, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (8, '入市年份', 'xxx', '2018;2019', 1, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (9, '颜色', 'xxx', '黑色;白色;蓝色;', 0, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (10, '内存', 'xxx', '4GB;6GB;8GB;12GB', 0, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (11, '机身颜色', 'xxx', '黑色;白色', 1, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (12, '版本', 'xxx', NULL, 0, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (13, '机身长度', 'xxx', '158.3;135.9', 1, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (14, '机身材质工艺', 'xxx', '以官网信息为准;陶瓷;玻璃', 1, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (15, 'CPU品牌', 'xxx', '高通;海思;以官网信息为准', 1, 1, 225);
+INSERT INTO `second_hand_attribute`(`attr_id`, `attr_name`, `icon`, `value_select`, `attr_type`, `enable`, `catelog_id`) VALUES (16, 'CPU型号', 'xxx', '骁龙665;骁龙845;骁龙855;骁龙730', 1, 1, 225);

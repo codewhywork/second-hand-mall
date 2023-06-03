@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>item sku信息</title>
+</head>
+<body>
+<div>
+    <a th:text="'商品名称: '+${data['spuInfo'].spuName}"></a>
+</div>
+<div>
+    <a th:text="'商品描述: '+${data['spuInfo'].spuDescription}"></a>
+</div>
+<div>
+    <a>spu基本信息:</a>
+    <ul th:each="spuAttr:${data['spuBaseAttr']}">
+        <li th:text="'attrName' + ${spuAttr.attrName}"></li>
+        <li th:text="'attrValue' + ${spuAttr.attrValue}"></li>
+    </ul>
+</div>
+<div>
+    <a>sku基本信息:</a>
+    <div>
+        <a th:text="'商品名称 :' + ${data['skuInfo'].skuName}">sku基本信息</a>
+        <a th:text="'商品标题 :' +  ${data['skuInfo'].skuTitle}">sku基本信息</a>
+        <a th:text="'商品副标题 :' + ${data['skuInfo'].skuSubtitle}">sku基本信息</a>
+        <ul th:each="skuAttr:${data['skuInfo'].skuSaleAttributeValueEntity}">
+            <input type="hidden" th:value="${skuAttr.skuId}">
+            <li th:text="'attrName' + ${skuAttr.attrName}"></li>
+            <li th:text="'attrValue' + ${skuAttr.attrValue}"></li>
+        </ul>
+        <li th:text="'价格 :' + ${data['skuInfo'].price}"></li>
+        <li th:text="'销售数量 :' + ${data['skuInfo'].saleCount}"></li>
+        </ul>
+    </div>
+</div>
+<div>
+        <a th:text="'库存余额: {{stockNum}}' "></a>
+</div>
+</body>
+<script>
+
+</script>
+</html>

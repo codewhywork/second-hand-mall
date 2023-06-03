@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>系统主页</title>
+</head>
+<body>
+<!--sec:authorize="isAuthenticated()" sec:authentication="principal.email-->
+<h3>用户信息信息:</h3>
+<ul>
+    <li sec:authorize="hasRole('ROLE_USER')">获取所有用户</li>
+    <li sec:authorize="hasRole('ROLE_ADMIN')">添加用户</li>
+    <li sec:authorize="hasRole('ROLE_BOSS')">管理管理员</li>
+</ul>
+<ul>
+    <!--    <li sec:authentication="principal.username"></li>-->
+    <!--    <li sec:authentication="principal.authorities"></li>-->
+    <!--    <li sec:authentication="principal.accountNonExpired"></li>-->
+    <!--    <li sec:authentication="principal.accountNonLocked"></li>-->
+    <!--    <li sec:authentication="principal.credentialsNonExpired"></li>-->
+</ul>
+<hr>
+
+<a th:href="@{/logout}">退出系统</a>
+</body>
+</html>

@@ -1,0 +1,137 @@
+[
+  {
+    "attributeEntities": [
+      {
+        "attrId": 7,
+        "attrName": "上网型号",
+        "attrType": 1,
+        "catelogId": 225,
+        "enable": 1,
+        "icon": "xxx",
+        "valueSelect": "A2217"
+      },
+      {
+        "attrId": 8,
+        "attrName": "上市年份",
+        "attrType": 1,
+        "catelogId": 225,
+        "enable": 1,
+        "icon": "xxx",
+        "valueSelect": "2018"
+      },
+      {
+        "attrId": 13,
+        "attrName": "机身长度",
+        "attrType": 1,
+        "catelogId": 225,
+        "enable": 1,
+        "icon": "xxx",
+        "valueSelect": "158.3;135.9"
+      },
+      {
+        "attrId": 9,
+        "attrName": "颜色",
+        "attrType": 0,
+        "catelogId": 225,
+        "enable": 1,
+        "icon": "xxx",
+        "valueSelect": "黑色;白色"
+      }
+    ],
+    "catalogId": 225,
+    "createTime": "",
+    "introduce": "iphone 11 最新款 pro max",
+    "publishStatus": 0,
+    "skuInfoEntities": [
+      {
+        "brandId": 1,
+        "catalogId": 225,
+        "price": 5300,
+        "saleCount": 10,
+        "skuDefaultImg": "sku_img1",
+        "skuName": "Apple IPhone13",
+        "skuSaleAttributeValueEntity": [
+          {
+            "attrId": 10,
+            "attrName":"内存",
+            "attrValue": "4GB;"
+          },
+          {
+            "attrId": 12,
+            "attrName":"版本",
+            "attrValue": "128G;"
+          },
+          {
+            "attrId": 9,
+            "attrName":"颜色",
+            "attrValue": "黑色;"
+          }
+        ],
+        "skuSubtitle": "iphone 11 最新款 pro max",
+        "skuTitle": "iphone 11 最新款 pro max",
+        "spuId": 0
+      },
+      {
+        "brandId": 1,
+        "catalogId": 225,
+        "price": 5800,
+        "saleCount": 10,
+        "skuDefaultImg": "sku_img1",
+        "skuName": "Apple IPhone13",
+        "skuSaleAttributeValueEntity": [
+          {
+            "attrId": 10,
+            "attrName":"内存",
+            "attrValue": "4GB;"
+          },
+          {
+            "attrId": 12,
+            "attrName":"版本",
+            "attrValue": "256G;"
+          },
+          {
+            "attrId": 9,
+            "attrName":"颜色",
+            "attrValue": "白色;"
+          }
+        ],
+        "skuSubtitle": "iphone 11 最新款 pro max",
+        "skuTitle": "iphone 12 最新款 pro max max",
+        "spuId": 0
+      },
+      {
+        "brandId": 1,
+        "catalogId": 225,
+        "price": 5800,
+        "saleCount": 10,
+        "skuDefaultImg": "sku_img1",
+        "skuName": "Apple IPhone13",
+        "skuSaleAttributeValueEntity": [
+          {
+            "attrId": 10,
+            "attrName":"内存",
+            "attrValue": "4GB;"
+          },
+          {
+            "attrId": 12,
+            "attrName":"版本",
+            "attrValue": "256G;"
+          },
+          {
+            "attrId": 9,
+            "attrName":"颜色",
+            "attrValue": "黑色;"
+          }
+        ],
+        "skuSubtitle": "iphone 11 最新款 pro max",
+        "skuTitle": "iphone 12 最新款 pro max max",
+        "spuId": 0
+      }
+    ],
+    "spuDescription": "苹果手机 就是比华为牛",
+    "spuImages": ["img1","img2"],
+    "spuName": "iphone 11",
+    "updateTime": "",
+    "weight": 0.1918
+  }
+]

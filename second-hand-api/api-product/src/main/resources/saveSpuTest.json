@@ -1,0 +1,88 @@
+[
+  {
+    "catalogId":225,
+    "createTime":"",
+    "introduce":"",
+    "publishStatus":0,
+    "skuInfoEntities":[
+      {
+        "brandId":1,
+        "catalogId":225,
+        "price":4399,
+        "saleCount":0,
+        "skuDefaultImg":"img1",
+        "skuId":0,
+        "skuName":"Apple IPhone12",
+        "skuSaleAttributeValueEntity":[
+          {
+            "attrId":9,
+            "attrName":"颜色",
+            "attrSort":0,
+            "attrValue":"白色",
+            "id":0,
+            "skuId":13
+          }
+        ],
+        "skuSubtitle":"IphoneXS",
+        "skuTitle":"Apple Iphone 黑色64G",
+        "spuId":14
+      },
+      {
+        "brandId":1,
+        "catalogId":225,
+        "price":4299,
+        "saleCount":0,
+        "skuDefaultImg":"img1",
+        "skuId":0,
+        "skuName":"Apple IPhone12",
+        "skuSaleAttributeValueEntity":[
+          {
+            "attrId":9,
+            "attrName":"版本",
+            "attrSort":0,
+            "attrValue":"128G",
+            "id":0,
+            "skuId":12
+          },
+          {
+            "attrId":9,
+            "attrName":"颜色",
+            "attrSort":0,
+            "attrValue":"黑色",
+            "id":0,
+            "skuId":13
+          }
+        ],
+        "skuSubtitle":"IphoneXS",
+        "skuTitle":"Apple Iphone 白色64G",
+        "spuId":14
+      }
+    ],
+    "spuAttributeValueEntities":[
+      {
+        "attrId":7,
+        "attrName":"入网型号",
+        "attrSort":0,
+        "attrValue":"A2217",
+        "quickShow":0,
+        "spuId":0
+      },
+      {
+        "attrId":8,
+        "attrName":"上市年份",
+        "attrSort":0,
+        "attrValue":"2018",
+        "quickShow":0,
+        "spuId":14
+      }
+    ],
+    "spuDescription":"Apple Iphone 12",
+    "spuImages":[
+      "img1",
+      "img2"
+    ],
+    "spuName":"Apple Iphone12",
+    "updateTime":"",
+    "weight":0.194
+  }
+]

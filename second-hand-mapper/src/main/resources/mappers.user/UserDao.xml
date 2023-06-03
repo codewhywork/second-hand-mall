@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bistu.why.dao.user.UserDao">
+
+    <resultMap type="com.bistu.why.model.user.UserEntity" id="userMap">
+        <result property="userId" column="user_id"/>
+        <result property="uname" column="uname"/>
+        <result property="passwd" column="passwd"/>
+        <result property="balance" column="balance"/>
+        <result property="scoring" column="scoring"/>
+        <result property="img" column="img"/>
+        <result property="email" column="email"/>
+        <result property="sex" column="sex"/>
+        <result property="city" column="city"/>
+        <result property="bankAccount" column="bank_account"/>
+        <result property="defaultAddress" column="default_address"/>
+    </resultMap>
+    <update id="subAccount">
+        update `second_hand_user`
+        set `bank_account` = `bank_account`  - #{bigDecimal}
+        where `user_id` = #{userId} AND `bank_account` >= #{bigDecimal} ;
+    </update>
+
+
+</mapper>

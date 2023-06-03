@@ -1,0 +1,74 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.58.190:3306/second_hand?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev
+
+#redis
+  redis:
+    host: 192.168.58.190
+    port: 6379
+
+#nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: second-hand-mall-user
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  web:
+    resources:
+      static-locations: classpath:/templates/
+
+#thymeleaf
+  thymeleaf:
+    cache: false
+
+
+#rabbimq
+  rabbitmq:
+    host: 192.168.58.190
+    username: guest
+    password: guest
+    port: 5672
+    virtual-host: /
+    #确认模式
+    publisher-confirm-type: correlated
+    #发送者的回调 交换机到队列的回调
+    publisher-returns: true
+    listener:
+      simple:
+        acknowledge-mode: manual
+      direct:
+        acknowledge-mode: manual
+        retry:
+          enabled: true
+          #重试3次
+          max-attempts: 3
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:mappers/**/*.xml
+  type-aliases-package: com.bistu.why.model
+  global-config:
+    db-config:
+      id-type: assign_id
+
+server:
+  port: 9092
+
+thread:
+  coreSize: 20
+  maxSize: 200
+  keepAliveTime: 10
+ali:
+  appCode: 31eb5e7be01f4209ba2dd486bf494887
+  appSecret: 15J9qFRyPxAmKgDvbnMH3lDOhE3c71DV
+  appKey: 204098293
+  keepAliveTime: 10

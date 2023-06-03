@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bistu.why</groupId>
+    <artifactId>second-hand-mall</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>second-hand-api</module>
+        <module>second-hand-service</module>
+        <module>second-hand-model</module>
+        <module>second-hand-mapper</module>
+        <module>second-hand-common</module>
+        <module>second-hand-gateway</module>
+        <module>second-hand-search</module>
+        <module>second-hand-api/api-user</module>
+        <module>second-hand-api/api-order</module>
+        <module>second-hand-api/api-reviews</module>
+        <module>second-hand-api/api-product</module>
+        <module>second-hand-api/api-cart</module>
+        <module>second-hand-api/api-business</module>
+        <module>second-hand-auth</module>
+        <module>second-hand-admin</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mysql.version>8.0.32</mysql.version>
+        <mybatis.version>2.2.2</mybatis.version>
+        <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
+        <mybatis.plus.version>3.0.5</mybatis.plus.version>
+        <redis.version>2.3.12.RELEASE</redis.version>
+        <spring-cloud.version>2021.0.3</spring-cloud.version>
+        <spring-cloud-alibaba.version>2021.0.4.0</spring-cloud-alibaba.version>
+    </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.0</version>
+    </parent>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+</project>

@@ -1,0 +1,1 @@
+INSERT INTO `second_hand_user`(`user_id`, `uname`, `passwd`, `balance`, `scoring`, `img`, `email`, `sex`, `city`, `bank_account`, `default_address`) VALUES ('1662729028470185986', 'user123123', '73aff6f9bca4de952ecbb870d2296b6b', NULL, NULL, NULL, '123123123@qq.com', NULL, NULL, NULL, NULL);
